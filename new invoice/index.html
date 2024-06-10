@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invoice</title>
+    <link rel="stylesheet" href="in 2.css">
+</head>
+
+<body>
+
+    <fieldset class="fieldsetall">
+        <legend class="legend1">
+            <h1> PURCHASE INVOICE</h1>
+        </legend>
+        <div class=" form_container1">
+            <form name="myForm" id="myForm" autocomplete="off">
+
+                <fieldset class="fielset1">
+                    <div class="algin_table1">
+                        <table class="contentstartwithleft">
+                            <tr>
+
+                                <th><label for="inid">Invoice Id</label>
+                                </th>
+                                <td> <input type="text" name="id" id="inid"> <br></td>
+
+                                &nbsp;
+
+                                <th><label for="name" class="align_left">Vendor</label>
+                                </th>
+                                <td>
+                                    <select name="" id="Vendor" class="align_left">
+                                        <option value="">Select</option>
+                                        <option value="Big Bazaar">Big Bazaar </option>
+                                        <option value="D-Mart">D-Mart</option>
+                                        <option value="G-Fresh Mart">G-Fresh Mart</option>
+                                        <option value="EasyDay">EasyDay</option>
+                                    </select>
+                                </td>
+
+                            </tr>
+                            <tr>
+
+                                <th><label for="docno">Document No </label>
+                                </th>
+                                <td> <input type="number" name="docno" id="docno"></td>
+
+                                <th><label for="" class="align_left">Invoice Date </label>
+                                </th>
+                                <td> <input type="date" name="date" class="align_left" id="date"></td>
+
+                            </tr>
+                            <tr>
+
+                                <th><label for="totalamount">Payment Status</label>
+                                </th>
+                                <td>
+                                    <select name="" id="status">
+                                        <option value="">Select</option>
+                                        <option value="paid">paid</option>
+                                        <option value="unpaid">unpaid</option>
+                                        <option value="pending">pending</option>
+                                    </select>
+                                </td>
+                                <th class="align_left">Billing Address </th>
+
+                                <td> <textarea name="" id="address" cols="5" class="align_left" rows="10"></textarea>
+                                </td>
+                            </tr>
+                    </div>
+
+                    </table>
+            </form>
+    </fieldset>
+
+    </div>
+
+    </table>
+
+    <br><br>
+    </div>
+    <div class="form_container2">
+        <fieldset class="fielset">
+            <legend class="legend2">Line Items</legend>
+            <div class="form2_align">
+                <form name="myForm1" id="myForm1" action="" method="POST" autocomplete="off">
+                    <table class="contentstartwithleft">
+                        <tr>
+
+                            <th><label for="Product" class="algin_right">Product </label></th>
+                            <td> <select name="Select" class="algin_right" id="Product" onchange="UOM()">
+                                    <option value="">Select</option>
+                                    <option value="Apple">Apple</option>
+
+                                    <option value="Sugar">Sugar</option>
+                                    <option value="Orange">Orange</option>
+                                    <option value="Milk">Milk</option>
+                                    <option value="Oil">oil</option>
+                                </select> &nbsp;&nbsp;&nbsp; &nbsp;</td>
+                            <th><label for="quantity" class="algin1">Quantity </span< /label>
+                            </th>
+                            <td> <input type="number" class="algin1" name="quantity" id="quantity" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="UOM">UOM </label>
+                            <td><input type="text" id="uom" readonly> </td>
+
+
+
+
+
+                            <th><label for="price" class="algin1">Price</label>
+                            </th>
+                            <td> <input type="number" name="price" class="algin1" id="price" required></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <div>
+                                    <br>
+                                    <button type="submit" id="update" onclick="editrow(event)">Update</button>
+                                    <button onclick="onsubmitHandler()" type="button" id="button">Add</button> &nbsp;
+                                    <button type="reset" id="Cancel" onclick="change()"> Clear</button>
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+                <br><br>
+            </div>
+
+            <div id="table_block">
+
+                <table id="table" border="1px solid black " role="all" style="border-collapse: collapse; width:90%;">
+
+                    <tr style="padding: 20px;">
+                        <th>S.NO</th>
+                        <th>Product </th>
+                        <th>Qty</th>
+                        <th>UOM</th>
+                        <th>Unit Price</th>
+                        <th>Total Amount</th>
+                        <th>Action</th>
+                    </tr>
+                </table>
+            </div>
+            </table>
+        </fieldset>
+
+    </div>
+    <div class="btn">
+        <input type="submit" value="Submit" class="btn1" onclick="location.reload()">
+        <input type="reset" class="btn2" class="Reset" onclick="location.reload()">
+
+    </div>
+
+    </fieldset>
+
+
+    </div>
+    <script src=" in.js">
+
+    </script>
+    <!-- 
+    <div id="deletebox">
+        <p class="alertcontent">Delete Items</p>
+        <div id="head">
+
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+
+.legend1{
+   text-align: center;
+}
+input{
+    padding: 5px;
+    margin: 7px;
+    width: 200px;
+    margin-left: 20px;
+}
+#docno{
+    width: 201px;
+}
+textarea{
+    padding: 3px;
+    width: 205px;
+    height: 20px;
+    margin-left: 13px;
+}
+
+.fielset1{
+    width: 900px;
+   
+}
+.form_container1{
+    position: relative;
+    left: 200px;
+ 
+}
+#payment_status{
+    width: 212px;
+    padding: 5px;
+    margin-left: 10px;  
+}
+select{
+    width: 212px;
+    padding: 5px;
+    margin-left: 10px;
+}
+#Vendor{
+    width: 211px;
+    padding: 5px;
+    margin-left: 9px;
+}
+.trash{
+    width: 20px;
+    cursor: pointer;
+}
+.edit{
+    width: 20px;
+    cursor: pointer;
+}
+#table_block th,td{
+    text-align: center;
+}
+/*  label content start with left */
+.contentstartwithleft{
+    text-align: left;
+}
+.fielset{ 
+    width: 900px;
+
+}
+
+#table_block th{
+    padding: 7px;
+
+}
+/* header button submit and reset */
+ .btn1{   
+  position: relative;
+    left: 380px;
+    width: 60px;
+    cursor: pointer;
+}
+.btn2{   
+    position: relative;
+      left: 360px;
+      width: 60px;
+      cursor: pointer;
+  }
+
+
+/*  */
+.form_container2{
+margin-left: 200px;
+padding-bottom: 20px;
+}
+.btn{
+    margin-left: 200px;
+
+}
+.algin_table1{
+ position: relative;
+left: 69px;
+}
+.form2_align{
+    margin-left: 150px;
+}
+/* this is btn width */
+#button{
+    width: 60px;
+    cursor: pointer;
+    padding: 5px;
+}
+#table_block{
+    margin-left: 60px;
+    position: relative;
+    bottom: 25px;
+} 
+
+.forms input{
+    margin: 7px;
+}
+.fieldsetall{
+    width: auto;
+}
+#update{
+    display: none; 
+    padding: 5px;
+    cursor: pointer;
+}
+
+#Cancel{
+
+    width: 60px;
+    padding: 5px;
+    cursor: pointer;
+}
+.align_left{
+    position: relative;
+    left: 50px;
+}
+#uom{
+    position: relative;
+    right: 15px;
+}
+ 
+
